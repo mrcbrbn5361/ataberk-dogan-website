@@ -48,3 +48,6 @@ public/images/README.md
 
 .vercel
 .env*.local
+
+.vercel
+.env*.local
