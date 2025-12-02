@@ -32,9 +32,19 @@ dist-ssr
 .env.local
 .env.production
 
-# Deploy scripts (optional - uncomment if you don't want to commit)
-# deploy.ps1
-# deploy.cmd
+# Deploy scripts and documentation (not needed in template)
+deploy.ps1
+deploy.cmd
+vercel.json
+.vercelignore
+
+# Documentation files (keep locally, ignore in git)
+API_INTEGRATION.md
+DEPLOYMENT.md
+GITHUB_SETUP.md
+KURULUM.md
+SITE_INFO.md
+public/images/README.md
 
 .vercel
 .env*.local
